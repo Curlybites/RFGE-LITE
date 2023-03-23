@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;800;900&family=Righteous&display=swap');
+
+:root{
+    --color1:#ffff;
+    --btn:#0353A4;
+}
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav{
+    height: 50vh;
+    width: 100%;
+    background: #709DCB;
+    
+}
+
+nav h3{
+    text-align: center;
+    margin-top: 10rem;
+    font-size: 3rem;
+}
+
+
+nav .header-container{
+    padding-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav .header-container .logo small{
+    color: var(--btn);
+    font-size: 1.5rem;
+   
+}
+
+nav .header-container .logo a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: var(--color1);
+    font-weight: 600;
+    font-size: 25px;
+    margin-left: 5rem;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Righteous', cursive;
+}
+nav .header-container .logo a span{
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+nav .header-container ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav .header-container ul li{
+    text-decoration: none;
+    list-style: none;
+}
+
+nav .header-container ul li a{
+    text-decoration: none;
+    color: var(--color1);
+    margin-right: 8rem;
+    font-weight: 500;
+}
+
+nav .header-container ul li select{
+    background: transparent;
+    border: none;
+
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #709DCB;
+  }
+  
+  nav .header-container ul li .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 12px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  nav .header-container ul li .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 13px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  nav .header-container ul li .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  nav .header-container ul li .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  nav .header-container .left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10rem;
+  }
+
+  nav .header-container .left a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: var(--color1);
+    margin-right: 1rem;
+  
+  }
+
+  nav .header-container .left .btn{
+    padding: 12px;
+    border-radius: 5px;
+    background: var(--btn);
+    font-weight: 600;
+    font-size: 13px;
+    border: 1px solid var(--btn);
+  }
+
+  nav .header-container .left .btn:hover{
+    border: 1px solid var(--btn);
+    background: transparent;
+    color: var(--btn);
+    font-weight: 600;
+  }
+
+  nav .header-container .left a span{
+    font-size: 36px;
+    color: #0353A4;
+  }
+
+
+main {
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .title{
+    margin-top: 6rem;
+}
+
+main .main-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
+
+main .main-content .left-content{
+    padding: 3rem;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+main .main-content .right-content form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .main-content .right-content form input{
+    padding: 1rem 1rem 1rem 1rem;
+    margin: 13px;
+    width: 30rem;
+}
+
+main .main-content .right-content form .submit-btn{
+    width: 32.1rem;
+    cursor: pointer;
+    background: var(--btn);
+    color: var(--color1);
+    border: 1px solid var(--btn);
+    font-size: 16px;
+    font-weight: 700;
+}
+
+main .main-content .right-content form .submit-btn:hover{
+    border: 1px solid var(--btn);
+    color: var(--btn);
+    background: transparent;
+    
+}

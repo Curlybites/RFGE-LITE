@@ -204,6 +204,10 @@ main .main-content .right-content form input{
     width: 30rem;
 }
 
+main .main-content .right-content form textarea{
+    width: 32.1rem;
+}
+
 main .main-content .right-content form .submit-btn{
     width: 32.1rem;
     cursor: pointer;
